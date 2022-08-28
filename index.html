@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9003541999.js" crossorigin="anonymous"></script>
+    <title>wildlifeOoze-Home</title>
+</head>
+<body>
+    <section>
+        <div class="navbar">
+            <nav>
+                <ul>
+                <li><a href="#" id="home">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Images</a></li>
+            </ul>
+            </nav>
+            <div class="logo">
+                <img src="images/logo2.jpeg" alt="">
+            </div>
+        </div>
+    <div class="container">
+        <h1><span>Wild</span>LifeOoze</h1>
+    </div>
+</section>
+<section class="About-us">
+    <h1 class="about-txt">ABOUT <span id="mei">ME</span></h1>
+    <div class="me">
+        <img src="images/prf.jpeg" alt="">
+    </div>
+    <h3 id="tt">My name is <span id="nm">Paarth Sundrani</span>, and I'm from Indore. I enjoy being in nature and photographing wildlife. I am studying in The Scindia School, fort Gwalior. I work as a freelance wildlife photographer and with NGOs such as Paryavaran Doot Gwalior and Gwalior Environmental Journalism. I am also working with KHEONI Wildlife Sanctuary in Dewas.</h3>
+</section>
+<section class="mid-part">
+    <h1 id="click">MY CLICKS</h1>
+    <div class="imags">
+        <img src="images/1.jpg" alt="">
+        <img src="images/10.jpg" alt="">
+        <img src="images/11.jpg" alt="">
+        <img src="images/12.jpg" alt="">
+    </div>
+    <div class="imags-2">
+        <img src="images/13.jpg" alt="">
+        <img src="images/14.jpg" alt="">
+        <img src="images/15.jpg" alt="">
+        <img src="images/16.jpg" alt="">
+    </div>
+    <div class="imags-3">
+        <img src="images/17.jpg" alt="">
+        <img src="images/18.jpg" alt="">
+        <img src="images/19.jpg" alt="">
+        <img src="images/16.jpg" alt="">
+    </div>
+</section>
+<section>   
+    <div class="social-handles">
+        <div class="social-txt">
+            <h1>Social Handles</h1>
+        </div>
+        <div class="social-icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+    </div>
+</section>
+<div class="main-btn">
+    <button id="btn"><p>Email Me</p></button>
+    <h3><bold>wildlifeooze@gmail.com</bold></h3>
+</div>
+    <div class="contact">
+        <div class="t1">
+            <p>Contact the team</p>
+        </div>
+        <div class="t2">
+            <p>Start a Conversation</p>
+        </div>
+        <div class="t3">
+            We're always available for a chat so do feel free to get in touch<br>
+            below and a member of the team will get right back to you.
+        </p>
+        </div>
+        <div class="form" onsubmit="SendEmail(); reset(); return false;">
+            <form action="">
+                <div class="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235526.90924425906!2d75.7237606239531!3d22.724228431568296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1652391855616!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="form-group">
+                    <label for="E-mail"></label>
+                    <input placeholder="Email" type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="number"></label>
+                    <input placeholder="Phone No" id="number" type="number" name="country_code" maxlength="10" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message"></label>
+                    <textarea placeholder="Message" name="message" id="message" cols="30" rows="10" required></textarea>
+                </div>
+                <button type="submit" id="bbt">Submit message</button>
+               
+            </form>
+        </div>
+        </div>
+        <div class="footer">
+            <div class="footer-txt">
+                <p>WildLifeOoze</p>
+            </div>
+            <div class="footer-para">
+                <p>This is a photography site here you can see my photos which i have clicked of animals
+                    photography is my passion and i am doing it from past 2 Years and i love doing it</p>
+                </div>
+            <div class="footer-icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+        </div>
+        <script src="site.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+            function SendEmail(){
+                Email.send({
+    Host : "smtp.gmail.com",
+    Username : "rehanmansuri865@gmail.com",
+    Password : "f@rhan123",
+    To : 'rehanmansuri865@gmail.com',   
+    From : document.getElementById("email").value,
+    Subject : "New Contact Form Enquiry",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+            }
+        </script>
+</body>
+</html>

@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo img{
+    width: 150px;
+    float: right;
+    margin-left: 650px;
+}   
+.container{
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+    background-image: url(images/t1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+span{
+    color: red;
+}
+#mei{
+    color: #4FC274;
+}
+#nm{
+    color: rgb(45, 242, 150);
+}
+.container h1{
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 5px;
+    color: 000;
+    margin-top: 200px;
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: center;
+    background: yellow;
+}
+.about-txt{
+    font-size: 34px;
+    text-align: center;
+    padding-top: 10px;
+}
+#home{
+    color: #fff;
+}
+.navbar{
+    height: 12%;
+    display: flex;  
+    align-items: center;
+    background-color: black;
+}
+nav ul li{
+    display: inline-block;
+    padding-bottom: 20px;  
+    padding-top: 20px;
+}
+ul li a {
+    text-decoration: none;
+    padding: 30px;  
+    align-items: center;
+    color: yellow;
+
+}
+ul li a:hover{
+    color: blue;
+    transition: 0.2s ease-in;
+}
+#tt{
+    text-align: center; 
+    justify-content: center;
+    color: #545454;
+    font-family: 'open sans', Courier, monospace;
+    font-size: 17px;
+    line-break: auto;
+    width: 1125px;
+    height: 100px;
+    margin: 15px 50px;
+}
+.About-us{
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.about-txt{
+    letter-spacing: 2px;
+}
+.me img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+/* My clicks */
+.mid-part{
+    background-color: #4FC274;
+}
+#click{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0.3rem;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.imags{
+    display: flex;
+    justify-content: center;
+}
+.imags img{
+    width: 250px;
+    padding: 20px;
+    border-radius: 30px;
+}
+.imags img:hover{   
+    box-shadow: (0 10px 20px #fff);
+    font-family: 'century Gothic';
+    transform: translateY(-18px);
+    transition: 0.5s ease;
+}
+.imags-2{
+    display: flex;
+    justify-content: center;
+}
+.imags-2 img{
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 30px;
+}
+.imags-2 img:hover{   
+    box-shadow: (0 10px 20px #fff);
+    font-family: 'century Gothic';
+    transform: translateY(-18px);
+    transition: 0.5s ease;
+}
+.imags-3{
+    display: flex;
+    justify-content: center;
+}
+.imags-3 img{
+    width: 250px;
+    padding: 20px;
+    border-radius: 30px;
+}
+.imags-3 img:hover{   
+    box-shadow: (0 10px 20px #fff);
+    font-family: 'century Gothic';
+    transform: translateY(-18px);
+    transition: 0.5s ease;
+}
+
+/* social handles */
+.social-handles{
+    margin-top: 50px;
+    background: #f3f4eb;
+    padding-top: 50px;
+    border: 1px solid #C1E4C6;
+    padding: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 10px;
+}
+.social-txt h1{
+    font-weight: 600px;
+    text-transform: bold;
+    text-align: start;
+    line-height: normal;
+    font-family: Arial, sans-serif;
+    color: #000;
+    letter-spacing: normal;
+    font-size: 40px;
+}
+.social-icons{
+    transform: translateY(-60px);
+}
+.social-icons i{
+    float: right;
+    position: relative;
+    background: #fff;   
+    box-shadow: 1px 2px #888888;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin: 10px;
+    align-items: center;
+    padding: 20px;
+}
+.social-icons i:hover{
+    cursor: pointer;
+    transform: translateY(-15px);
+    transition: 0.05s ease-in;
+}
+
+/* button */
+.main-btn{
+    margin-top: 50px;
+    background: #f3f4eb;
+    padding-top: 50px;
+    border: 1px solid #C1E4C6;
+    padding: 20px;
+    border-radius: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 15px;
+}
+#btn{
+    padding: 5px 50px;
+    border-radius: 30px;
+    border: 1px solid grey; 
+    background-color: #4FC274;
+    font-size: 16px;
+}
+
+#btn p:hover{
+    font-style: italic;
+    font-size: 18px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+h3{
+    transform: translateX(500px);
+    margin-left: 50px;
+    transform: translateY(1px);
+    display: inline;
+    position: absolute;
+}
+
+/* contact section */
+.contact{
+    padding-top: 50px;
+    padding-left: 100px;
+    background: #EEF1FD;
+}
+.t1{
+    font-size: 16px;
+    color: #636e75;
+    font-family: 'Roboto Slab', serif;
+}
+.t2{
+    font-family: 'Yorkten demi', serif;
+    font-size: 36px;
+    padding-top: 5px;
+}
+.t3{
+    color: #8A8A8A;
+    font-style: normal;
+    font-weight:400px;
+    font-family: 'Montserrat', sans-serif;
+    margin:  0 0 10px;
+    padding-top: 25px;
+    word-spacing: normal;
+    letter-spacing: normal;
+    font-size: 18px;
+    
+}
+.form{
+    padding-top: 25px;
+}
+.form-group{
+    padding-top: 5px;
+    font-family: Montserrat;
+}
+#email{
+    padding: 10px;
+    padding-right: 300px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+#number{
+    margin-top: 10px;
+    padding: 10px;
+    padding-right: 300px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+#message{
+    margin-top: 10px;
+    padding-right: 230px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 1px solid #fff;
+    padding-top: 10px;
+}
+#bbt{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 170px;
+    border-radius: 10px;
+    border: 1px solid #fff; 
+    background-image: linear-gradient(to left, );
+    font-style: normal;
+    font-size: 16px;
+}
+.maps{
+    float: right;
+    transform: translateY(-180px);
+    padding: 10px;
+}
+/* footer */
+.footer{
+    background: #000;
+    padding: 100px;
+    font-size: 20px;
+}
+.footer-txt{
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 36px;
+    transform: translateX(250px);
+    margin-bottom: 10px;
+}
+.footer-para p{
+    color: #fff;
+    font-size: 16px;
+    width: 1500px;
+    justify-items: center;
+    align-items: center;
+    transform: translateX(200px);
+}
+.footer-icons{
+    color: #fff;
+    transform: translateX(450px);
+    padding: 10px;
+    margin: 10px;
+}
